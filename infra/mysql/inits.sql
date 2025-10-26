@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS blog;
+USE blog;
+CREATE TABLE post(id BIGINT PRIMARY KEY AUTO_INCREMENT, title VARCHAR(100), content TEXT);
+INSERT INTO post VALUES(1,'Hello Docker','This post is created on DAY1');
